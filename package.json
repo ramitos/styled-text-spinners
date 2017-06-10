@@ -26,7 +26,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "build": "bup",
-    "prepublish": "bup; npm run styleguide:build"
+    "prepublish": "bup; npm run styleguide:build; mv styleguide docs"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
